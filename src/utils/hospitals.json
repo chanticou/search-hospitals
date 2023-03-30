@@ -1,0 +1,120 @@
+{
+  "hospitales": [
+    {
+      "localidad": "Buenos Aires",
+      "nombre": "Hospital de Clínicas",
+      "especialidades": ["Cardiología", "Oncología", "Neurología"],
+      "direccion": "Av. Córdoba 2351",
+      "latitud": "-34.6019",
+      "longitud": "-58.3975"
+    },
+    {
+      "localidad": "Buenos Aires",
+      "nombre": "Hospital Durand",
+      "especialidades": ["Emergentología", "Traumatología", "Cirugía General"],
+      "direccion": "Av. Díaz Vélez 5044",
+      "latitud": "-34.6067",
+      "longitud": "-58.4550"
+    },
+    {
+      "localidad": "Buenos Aires",
+      "nombre": "Hospital Rivadavia",
+      "especialidades": ["Cardiología", "Gastroenterología", "Neumonología"],
+      "direccion": "Av. Las Heras 2670",
+      "latitud": "-34.5847",
+      "longitud": "-58.4102"
+    },
+    {
+      "localidad": "San Isidro",
+      "nombre": "Hospital Central de San Isidro",
+      "especialidades": ["Cardiología", "Gastroenterología", "Neumonología"],
+      "direccion": "Av. Santa Fe 431",
+      "latitud": "-34.4728",
+      "longitud": "-58.5197"
+    },
+    {
+      "localidad": "La Plata",
+      "nombre": "Hospital San Juan de Dios",
+      "especialidades": ["Oncología", "Pediatría", "Neurología"],
+      "direccion": "Calle 116 y 76",
+      "latitud": "-34.9209",
+      "longitud": "-57.9721"
+    },
+    {
+      "localidad": "Córdoba",
+      "nombre": "Hospital Nacional de Clínicas",
+      "especialidades": ["Cardiología", "Gastroenterología", "Neumonología"],
+      "direccion": "Av. Enrique Barros S/N",
+      "latitud": "-31.4266",
+      "longitud": "-64.1864"
+    },
+    {
+      "localidad": "Rosario",
+      "nombre": "Hospital Provincial del Centenario",
+      "especialidades": ["Emergentología", "Traumatología", "Cirugía General"],
+      "direccion": "Av. Pellegrini 3200",
+      "latitud": "-32.9382",
+      "longitud": "-60.6716"
+    },
+    {
+      "localidad": "Mendoza",
+      "nombre": "Hospital Central de Mendoza",
+      "especialidades": ["Cardiología", "Oncología", "Neurología"],
+      "direccion": "Perú 1230",
+      "latitud": "-32.8899",
+      "longitud": "-68.8387"
+    },
+    {
+      "localidad": "Tucumán",
+      "nombre": "Hospital del Niño Jesús",
+      "especialidades": ["Pediatría", "Neonatología", "Oncología Pediátrica"],
+      "direccion": "Crisóstomo Álvarez 501",
+      "latitud": "-26.8219",
+      "longitud": "-65.2148"
+    },
+    {
+      "localidad": "Buenos Aires",
+      "nombre": "Hospital Italiano",
+      "especialidades": ["Cardiología", "Oncología", "Cirugía Cardiovascular"],
+      "direccion": "Gascón 450",
+      "latitud": "-34.5996",
+      "longitud": "-58.4215"
+    },
+    {
+      "localidad": "Buenos Aires",
+      "nombre": "Hospital Ramos Mejía",
+      "especialidades": ["Dermatología", "Endocrinología", "Gastroenterología"],
+      "direccion": "Uruguay 446",
+      "latitud": "-34.6062",
+      "longitud": "-58.3839"
+    },
+    {
+      "localidad": "Buenos Aires",
+      "nombre": "Hospital de Niños Ricardo Gutiérrez",
+      "especialidades": ["Pediatría", "Neonatología", "Cardiología Pediátrica"],
+      "direccion": "Gallo 1330",
+      "latitud": "-34.6015",
+      "longitud": "-58.4231"
+    },
+    {
+      "localidad": "Buenos Aires",
+      "nombre": "Instituto de Neurociencias de Buenos Aires",
+      "especialidades": ["Neurología", "Neurocirugía", "Psiquiatría"],
+      "direccion": "Ramallo 2601",
+      "latitud": "-34.5678",
+      "longitud": "-58.4813"
+    },
+    {
+      "localidad": "Buenos Aires",
+      "nombre": "Hospital de Rehabilitación Manuel Rocca",
+      "especialidades": [
+        "Rehabilitación Neurológica",
+        "Traumatología",
+        "Ortopedia"
+      ],
+      "direccion": "Juan B. Justo 4151",
+      "latitud": "-34.6291",
+      "longitud": "-58.5017"
+    }
+  ]
+}

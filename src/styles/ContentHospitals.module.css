@@ -1,0 +1,75 @@
+.title {
+  text-align: center;
+}
+
+.contentButton {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+/* 
+.ReactModal__Overlay .ReactModal__Overlay--after-open {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+} */
+
+.popupButton {
+  padding: 10px 20px;
+  color: blue;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popupButton {
+  padding: 20px;
+  width: 200px;
+  margin: auto;
+}
+.contentSelect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.select {
+  padding: 10px 0;
+  width: 150px;
+}
+
+.contentCard {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000;
+  width: 400px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.contentCard p {
+  width: 400px;
+  font-size: 1.2rem;
+
+  text-align: center;
+}
+
+.selectContainer {
+  /* padding: 20px; */
+  /* width: 500px; */
+  display: flex;
+  margin: auto;
+  /* border: 1px solid black; */
+  height: 170px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px 0;
+}
+
+.firstStep {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+}
