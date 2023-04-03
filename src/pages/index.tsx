@@ -1,13 +1,10 @@
+import React from "react";
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import { MainPage } from "./MainPage";
-import React from "react";
-import ReactDOM from "react-dom";
-import { store } from "../redux/store/index";
-import { Provider } from "react-redux";
-import styles from "@/styles/Home.module.css";
-
 const inter = Inter({ subsets: ["latin"] });
+
+import styles from "@/styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -20,11 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <Provider store={store}>
-          <React.StrictMode>
-            <MainPage />
-          </React.StrictMode>
-        </Provider>
+        <MainPage />
       </div>
     </>
   );

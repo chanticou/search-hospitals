@@ -1,14 +1,29 @@
-import axios from "axios";
-import { FormEvent, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "@/styles/ContentHospitals.module.css";
 import hospitales from "../../utils/hospitals.json";
+import type { TypedUseSelectorHook } from "react-redux";
 // LIBRERY REACT MODAL
-import ReactDOM from "react-dom";
 import Modal from "react-modal";
-
+import { GetAllCities } from "../redux/actions/index";
+import { useDispatch, useSelector } from "react-redux";
+import type {
+  RootState as StoreRootState,
+  AppDispatch,
+} from "../redux/store/index";
 import "animate.css";
 
 const ContentHospitals = (): JSX.Element => {
+  //Global states
+  const dispatch = useDispatch();
+  const useAppSelector: TypedUseSelectorHook<StoreRootState> = useSelector;
+
+  const cities = useAppSelector(
+    (state: StoreRootState) => state.rootReducer.allCities
+  );
+
+  //Local states
+  const [modalIsOpen1, setIsOpenModal1] = useState<boolean>(false);
+  const [modalIsOpen2, setIsOpenModal2] = useState<boolean>(false);
   const [stylesModal, setstylesModal] = useState<any>({
     content: {
       top: "50%",
@@ -22,9 +37,13 @@ const ContentHospitals = (): JSX.Element => {
     },
   });
 
-  const [modalIsOpen1, setIsOpenModal1] = useState<boolean>(false);
-  const [modalIsOpen2, setIsOpenModal2] = useState<boolean>(false);
+  useEffect(() => {
+    dispatch<any>(GetAllCities());
+  }, []);
 
+  console.log(cities);
+
+  //Functions
   function openModal(value: number) {
     if (value === 1) {
       setIsOpenModal1(true);
@@ -48,21 +67,20 @@ const ContentHospitals = (): JSX.Element => {
   const [specialities, setspecialities] = useState<string[]>([]);
   const [selectValue, setSelectValue] = useState<string>("");
   const [selectSpeciality, setSelectSpeciality] = useState<string[]>([]);
-  const [allCities, setAllCities] = useState<string[]>([]);
+  // const [allCities, setAllCities] = useState<string[]>([]);
   const [handleSelectCity, sethandleSelectCity] = useState<any>(null);
   const [error, setError] = useState<any>(null);
-
   //GET ALL CITIES
-  const getAllCities = async () => {
-    const url =
-      "https://apis.datos.gob.ar/georef/api/municipios?campos=id,nombre,%20provincia.nombre&max=5000";
-    const response = await axios.get(url);
-    const data = await response.data.municipios.filter(
-      (el: any) => el.provincia.nombre === "Buenos Aires"
-    );
-    const newArr = data.map((el: any) => el.nombre);
-    setAllCities(newArr.sort());
-  };
+  // const getAllCities = async () => {
+  //   const url =
+  //     "https://apis.datos.gob.ar/georef/api/municipios?campos=id,nombre,%20provincia.nombre&max=5000";
+  //   const response = await axios.get(url);
+  //   const data = await response.data.municipios.filter(
+  //     (el: any) => el.provincia.nombre === "Buenos Aires"
+  //   );
+  //   const newArr = data.map((el: any) => el.nombre);
+  //   setAllCities(newArr.sort());
+  // };
 
   //GET JSON HOSPITALES
   const getAllAPi = async () => {
@@ -76,7 +94,6 @@ const ContentHospitals = (): JSX.Element => {
 
   useEffect(() => {
     getAllAPi();
-    getAllCities();
   }, []);
 
   const handleSelectOption = (e: any) => {
@@ -162,7 +179,7 @@ const ContentHospitals = (): JSX.Element => {
           PASO UNO
         </button>
       </div>
-      {/* MODALE UNO */}
+      {/* MODAL UNO */}
 
       <Modal
         isOpen={modalIsOpen1}
@@ -181,7 +198,7 @@ const ContentHospitals = (): JSX.Element => {
               onChange={(e) => sethandleSelectCity(e.target.value)}
             >
               <option value="">Ciudad</option>
-              {allCities.map((el: any) => {
+              {cities.map((el: any) => {
                 return <option>{el}</option>;
               })}
             </select>
@@ -190,13 +207,13 @@ const ContentHospitals = (): JSX.Element => {
       </Modal>
       <div></div>
       {/* ESPECIALIDAD */}
-      <div className={styles.contentButton}>
+      {/* <div className={styles.contentButton}>
         <button className={styles.popupButton} onClick={() => openModal(2)}>
           PASO DOS
         </button>
-      </div>
+      </div> */}
       {/* MODAL DOS */}
-      <Modal
+      {/* <Modal
         isOpen={modalIsOpen2}
         onRequestClose={() => closeModal(2)}
         style={stylesModal}
@@ -230,7 +247,7 @@ const ContentHospitals = (): JSX.Element => {
             <p>{el.direccion}</p>
           </div>
         );
-      })}
+      })} */}
     </>
   );
 };
