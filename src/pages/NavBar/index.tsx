@@ -5,20 +5,20 @@ const NavBar = (): JSX.Element => {
   return (
     <>
       <div>
-        <p className={styles.holamundo}>APLICATION TITLE</p>
+        <p className={styles.titlenavBar}>SALUD PARA TODOS</p>
       </div>
       <div className={styles.contentLinks}>
-        <Link className={styles.links} href="/ContentHospitals">
-          <div className={styles.ProductsContainer}>Pokemons</div>
-        </Link>
+        {/* <Link className={styles.links} href="/ContentHospitals"> */}
+        <div className={styles.ProductsContainer}>LINK1</div>
+        {/* </Link> */}
         <a className={styles.ProductsContainer} href="">
-          LINK 1
+          LINK 2
         </a>
         <a className={styles.ProductsContainer} href="">
-          LINK 1
+          LINK 3
         </a>
         <a className={styles.linkToGoogle} href="">
-          LINK 1
+          LINK 3
         </a>
       </div>
     </>

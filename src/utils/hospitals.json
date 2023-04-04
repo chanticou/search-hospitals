@@ -5,22 +5,84 @@
       "nombre": "Hospital de Clínicas",
       "especialidades": ["Cardiología", "Oncología", "Neurología"],
       "direccion": "Av. Córdoba 2351",
+      "telefono": "011 5950-8000",
       "latitud": "-34.6019",
       "longitud": "-58.3975"
     },
+
     {
       "localidad": "Buenos Aires",
       "nombre": "Hospital Durand",
       "especialidades": ["Emergentología", "Traumatología", "Cirugía General"],
       "direccion": "Av. Díaz Vélez 5044",
+      "telefono": "011 4982-5555",
       "latitud": "-34.6067",
       "longitud": "-58.4550"
+    },
+    {
+      "localidad": "San Isidro",
+      "nombre": "Centro de Atención Primaria de la Salud N° 16",
+      "especialidades": ["Atención Primaria de la Salud"],
+      "direccion": "Int. Neyer 1451",
+      "telefono": "011 4512-3188",
+      "latitud": "-34.4722",
+      "longitud": "-58.5107"
+    },
+    {
+      "localidad": "Boulogne",
+      "nombre": "Hospital Municipal Ciudad de Boulogne",
+      "especialidades": ["Pediatría", "Neonatología", "Terapia Intensiva"],
+      "direccion": "Av. Avelino Rolón 1200",
+      "telefono": "011 4513-7800",
+      "latitud": "-34.5098",
+      "longitud": "-58.5812"
+    },
+    {
+      "localidad": "San Isidro",
+      "nombre": "Centro Municipal de Oftalmología Dr. Juan G. Pereyra",
+      "especialidades": ["Oftalmología"],
+      "direccion": "Av. del Libertador 16458",
+      "telefono": "011 4512-3388",
+      "latitud": "-34.4856",
+      "longitud": "-58.5014"
+    },
+    {
+      "localidad": "San Isidro",
+      "nombre": "Hospital Municipal Materno Infantil Dr. Carlos Gianantonio",
+      "especialidades": ["Cardiología", "Pediatría", "Neonatología"],
+      "direccion": "Av. Santa Fe 431",
+      "telefono": "011 4512-3451",
+      "latitud": "-34.4702",
+      "longitud": "-58.5221"
+    },
+    {
+      "localidad": "San Isidro",
+      "nombre": "Centro Municipal de Rehabilitación Dr. Ricardo E. Finochietto",
+      "especialidades": ["Fisioterapia", "Kinesiología", "Terapia Ocupacional"],
+      "direccion": "Av. Fondo de la Legua 2345",
+      "telefono": "011 4512-3115",
+      "latitud": "-34.5134",
+      "longitud": "-58.5337"
+    },
+    {
+      "localidad": "Boulogne",
+      "nombre": "Centro Municipal de Atención Médica Ambulatoria Dr. Guillermo R. Vélez Sarsfield",
+      "especialidades": [
+        "Atención Primaria de la Salud",
+        "Pediatría",
+        "Ginecología"
+      ],
+      "direccion": "Av. Avelino Rolón 2215",
+      "telefono": "011 4513-7877",
+      "latitud": "-34.5049",
+      "longitud": "-58.5842"
     },
     {
       "localidad": "Buenos Aires",
       "nombre": "Hospital Rivadavia",
       "especialidades": ["Cardiología", "Gastroenterología", "Neumonología"],
       "direccion": "Av. Las Heras 2670",
+      "telefono": "011 4809-2000",
       "latitud": "-34.5847",
       "longitud": "-58.4102"
     },
@@ -29,6 +91,7 @@
       "nombre": "Hospital Central de San Isidro",
       "especialidades": ["Cardiología", "Gastroenterología", "Neumonología"],
       "direccion": "Av. Santa Fe 431",
+      "telefono": "011 4512-3707",
       "latitud": "-34.4728",
       "longitud": "-58.5197"
     },
@@ -37,6 +100,7 @@
       "nombre": "Hospital San Juan de Dios",
       "especialidades": ["Oncología", "Pediatría", "Neurología"],
       "direccion": "Calle 116 y 76",
+      "telefono": "011 4809-2000",
       "latitud": "-34.9209",
       "longitud": "-57.9721"
     },
@@ -53,6 +117,7 @@
       "nombre": "Hospital Provincial del Centenario",
       "especialidades": ["Emergentología", "Traumatología", "Cirugía General"],
       "direccion": "Av. Pellegrini 3200",
+      "telefono": "011 4809-2000",
       "latitud": "-32.9382",
       "longitud": "-60.6716"
     },
@@ -61,6 +126,7 @@
       "nombre": "Hospital Central de Mendoza",
       "especialidades": ["Cardiología", "Oncología", "Neurología"],
       "direccion": "Perú 1230",
+      "telefono": "011 4809-2000",
       "latitud": "-32.8899",
       "longitud": "-68.8387"
     },
@@ -69,6 +135,7 @@
       "nombre": "Hospital del Niño Jesús",
       "especialidades": ["Pediatría", "Neonatología", "Oncología Pediátrica"],
       "direccion": "Crisóstomo Álvarez 501",
+      "telefono": "011 4809-2000",
       "latitud": "-26.8219",
       "longitud": "-65.2148"
     },
@@ -77,6 +144,7 @@
       "nombre": "Hospital Italiano",
       "especialidades": ["Cardiología", "Oncología", "Cirugía Cardiovascular"],
       "direccion": "Gascón 450",
+      "telefono": "011 4809-2000",
       "latitud": "-34.5996",
       "longitud": "-58.4215"
     },
@@ -85,6 +153,7 @@
       "nombre": "Hospital Ramos Mejía",
       "especialidades": ["Dermatología", "Endocrinología", "Gastroenterología"],
       "direccion": "Uruguay 446",
+      "telefono": "011 4809-2000",
       "latitud": "-34.6062",
       "longitud": "-58.3839"
     },
@@ -93,6 +162,7 @@
       "nombre": "Hospital de Niños Ricardo Gutiérrez",
       "especialidades": ["Pediatría", "Neonatología", "Cardiología Pediátrica"],
       "direccion": "Gallo 1330",
+      "telefono": "011 4809-2000",
       "latitud": "-34.6015",
       "longitud": "-58.4231"
     },
@@ -101,6 +171,7 @@
       "nombre": "Instituto de Neurociencias de Buenos Aires",
       "especialidades": ["Neurología", "Neurocirugía", "Psiquiatría"],
       "direccion": "Ramallo 2601",
+      "telefono": "011 4809-2000",
       "latitud": "-34.5678",
       "longitud": "-58.4813"
     },
@@ -113,6 +184,7 @@
         "Ortopedia"
       ],
       "direccion": "Juan B. Justo 4151",
+      "telefono": "011 4809-2000",
       "latitud": "-34.6291",
       "longitud": "-58.5017"
     }

@@ -1,5 +1,6 @@
 "use strict";
-import { ALL_CITIES } from "../../../actions_types";
+import hospitales from "../../../utils/hospitals.json";
+import { ALL_CITIES, ALL_HOSPITALES } from "../../../actions_types";
 import axios from "axios";
 
 export const GetAllCities = () => {
@@ -12,9 +13,9 @@ export const GetAllCities = () => {
       const data = await response.data.municipios.filter(
         (el) => el.provincia.nombre === "Buenos Aires"
       );
-      // console.log(data, "DATA");
-      const newArr = data.map((el) => el.nombre);
-      // console.log(newArr, "newArr");
+
+      const newArr = data.map((el) => el.nombre).sort();
+
       dispatch({
         type: ALL_CITIES,
         payload: [...newArr],
@@ -22,5 +23,17 @@ export const GetAllCities = () => {
     } catch (error) {
       console.log(error);
     }
+  };
+};
+
+export const GetAllHospitals = () => {
+  return async function (dispatch) {
+    const response = hospitales;
+    // console.log(response);
+
+    dispatch({
+      type: ALL_HOSPITALES,
+      payload: response.hospitales,
+    });
   };
 };

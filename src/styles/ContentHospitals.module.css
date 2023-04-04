@@ -1,5 +1,13 @@
+/* #C9E3F3
+#79B3D5
+#547CA8
+#1C385C */
 .title {
   text-align: center;
+  color: #ffffff;
+  width: 400px;
+  margin: auto;
+  text-shadow: 2px, 2px, 2px rgb(0, 0, 0, 0.1);
 }
 
 .contentButton {
@@ -7,11 +15,12 @@
   justify-content: center;
   padding: 20px;
 }
-/* 
-.ReactModal__Overlay .ReactModal__Overlay--after-open {
-  background-color: rgba(0, 0, 0, 0.75) !important;
-} */
 
+.contentHospitalsContainer {
+  background-color: #547ca8;
+  margin-top: 50px;
+  padding: 10px 0;
+}
 .popupButton {
   padding: 10px 20px;
   color: blue;
@@ -36,24 +45,29 @@
   padding: 10px 0;
   width: 150px;
 }
-
+.prueba {
+  display: flex;
+}
 .contentCard {
   display: flex;
-  flex-direction: row;
-  border: 1px solid #000;
+  flex-direction: column;
+
   width: 400px;
   height: 100px;
+  border-bottom: 1px solid #33009d;
   align-items: center;
   justify-content: center;
   margin: auto;
-  margin-top: 50px;
+  padding: 100px;
+  gap: 20px 0;
 }
 
 .contentCard p {
   width: 400px;
   font-size: 1.2rem;
-
   text-align: center;
+  color: revert;
+  letter-spacing: 2px;
 }
 
 .selectContainer {

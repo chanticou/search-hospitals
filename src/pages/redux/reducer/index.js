@@ -2,6 +2,7 @@ import * as actions from "../../../actions_types";
 
 const initialState = {
   allCities: [],
+  allHospitals: [],
 };
 
 export default function rootReducer(state = initialState, action) {
@@ -11,6 +12,11 @@ export default function rootReducer(state = initialState, action) {
       return {
         ...state,
         allCities: action.payload,
+      };
+    case actions.ALL_HOSPITALES:
+      return {
+        ...state,
+        allHospitals: action.payload,
       };
 
     default:

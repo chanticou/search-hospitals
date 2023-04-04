@@ -1,7 +1,10 @@
-.holamundo {
-  color: red;
+.titlenavBar {
+  color: #1c385c;
   text-align: center;
   font-size: 2rem;
+  margin: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
 }
 
 .ProductsContainer {
@@ -13,7 +16,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 5px;
 }
 
 .links {
