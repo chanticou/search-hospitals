@@ -187,6 +187,1649 @@
       "telefono": "011 4809-2000",
       "latitud": "-34.6291",
       "longitud": "-58.5017"
-    }
+    },
+    {
+      "localidad": "25 de Mayo",
+      "nombre": "Hospital Municipal Dr. Pedro T. Orellana",
+      "especialidades": ["Pediatría", "Ginecología", "Obstetricia", "Cirugía"],
+      "direccion": "Sarmiento 187",
+      "telefono": "(02345) 46-2414",
+      "latitud": "-35.4371",
+      "longitud": "-60.1749"
+    },
+    {
+      "localidad": "25 de Mayo",
+      "nombre": "Hospital Municipal Dr. Alberto L. Videla",
+      "especialidades": ["Pediatría", "Ginecología", "Obstetricia", "Cirugía"],
+      "direccion": "Gral. Paz 711",
+      "telefono": "(02345) 46-1076",
+      "latitud": "-35.4349",
+      "longitud": "-60.1752"
+    },
+    {
+      "localidad": "25 de Mayo",
+      "nombre": "Hospital Municipal Dr. René Favaloro",
+      "especialidades": [
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia",
+        "Cirugía",
+        "Oftalmología"
+      ],
+      "direccion": "Rivadavia 1004",
+      "telefono": "(02345) 46-1252",
+      "latitud": "-35.4364",
+      "longitud": "-60.1758"
+    },
+    {
+      "localidad": "9 de Julio",
+      "nombre": "Hospital Julio de Vedia",
+      "especialidades": [
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia",
+        "Cirugía",
+        "Cardiología"
+      ],
+      "direccion": "Av. Mitre 330",
+      "telefono": "(02317) 42-1200",
+      "latitud": "-35.4452",
+      "longitud": "-60.8823"
+    },
+    {
+      "localidad": "9 de Julio",
+      "nombre": "Hospital de Agudos Dr. Juan I. Thompson",
+      "especialidades": [
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia",
+        "Cirugía",
+        "Oncología"
+      ],
+      "direccion": "Av. Eva Perón 1861",
+      "telefono": "(02317) 42-3300",
+      "latitud": "-35.4424",
+      "longitud": "-60.8704"
+    },
+    {
+      "localidad": "Carhué",
+      "nombre": "Hospital Municipal Dr. E. F. Mayor",
+      "especialidades": [
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia",
+        "Cirugía",
+        "Cardiología",
+        "Traumatología"
+      ],
+      "direccion": "Libertad 590",
+      "telefono": "(02936) 43-1100",
+      "latitud": "-37.1787",
+      "longitud": "-62.7454"
+    },
+    {
+      "localidad": "Carhué",
+      "nombre": "Policlínico Municipal Dr. Leónidas Lucero",
+      "especialidades": ["Pediatría", "Ginecología", "Obstetricia", "Cirugía"],
+      "direccion": "San Martín 736",
+      "telefono": "(02936) 43-1661",
+      "latitud": "-37.1766",
+      "longitud": "-62.7435"
+    },
+    {
+      "localidad": "Adolfo Gonzales Chaves",
+      "nombre": "Hospital Municipal Dr. Horacio Ferro",
+      "especialidades": [
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia",
+        "Cirugía",
+        "Cardiología",
+        "Oftalmología"
+      ],
+      "direccion": "Pueyrredón 751",
+      "telefono": "(02983) 42-0007",
+      "latitud": "-38.0431",
+      "longitud": "-60.0968"
+    },
+    {
+      "localidad": "Adolfo Gonzales Chaves",
+      "nombre": "Centro de Salud Municipal Dr. Jorge A. Papetti",
+      "especialidades": ["Pediatría", "Ginecología", "Obstetricia", "Cirugía"],
+      "direccion": "25 de Mayo 833",
+      "telefono": "(02983) 42-1696",
+      "latitud": "-38.0455",
+      "longitud": "-60.0908"
+    },
+    {
+      "localidad": "Alberti",
+      "nombre": "Hospital Municipal Dr. Pedro T. Orellana",
+      "especialidades": [
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia",
+        "Cirugía",
+        "Cardiología",
+        "Neumonología",
+        "Traumatología"
+      ],
+      "direccion": "Pellegrini 347",
+      "telefono": "(02346) 42-1020",
+      "latitud": "-35.0239",
+      "longitud": "-60.2737"
+    },
+    {
+      "localidad": "Alberti",
+      "nombre": "Centro de Atención Primaria de la Salud Dr. Walter D'Andrea",
+      "especialidades": ["Pediatría", "Ginecología", "Obstetricia", "Cirugía"],
+      "direccion": "Av. Eva Perón 951",
+      "telefono": "(02346) 42-0377",
+      "latitud": "-35.0384",
+      "longitud": "-60.2571"
+    },
+    {
+      "localidad": "Alberti",
+      "nombre": "Centro de Atención Primaria de la Salud Dr. Ramón Carrillo",
+      "especialidades": ["Pediatría", "Ginecología", "Obstetricia", "Cirugía"],
+      "direccion": "Av. Mitre 465",
+      "telefono": "(02346) 42-0377",
+      "latitud": "-35.0233",
+      "longitud": "-60.2777"
+    },
+    {
+      "localidad": "Almirante Brown",
+      "nombre": "Hospital Nacional Profesor Alejandro Posadas",
+      "especialidades": [
+        "Cardiología",
+        "Oncología",
+        "Neurología",
+        "Traumatología",
+        "Pediatría",
+        "Ginecología"
+      ],
+      "direccion": "Presidente Illia S/N",
+      "telefono": "(011) 4469-9300",
+      "latitud": "-34.7325",
+      "longitud": "-58.5187"
+    },
+    {
+      "localidad": "Almirante Brown",
+      "nombre": "Hospital Lucio Meléndez",
+      "especialidades": [
+        "Cardiología",
+        "Cirugía General",
+        "Neurología",
+        "Pediatría",
+        "Oftalmología"
+      ],
+      "direccion": "Dr. E. Melo y O. H. Lagos",
+      "telefono": "(011) 4238-1073",
+      "latitud": "-34.7777",
+      "longitud": "-58.3661"
+    },
+    {
+      "localidad": "Almirante Brown",
+      "nombre": "Hospital Dr. Arturo Oñativia",
+      "especialidades": [
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia",
+        "Cirugía",
+        "Cardiología",
+        "Neumonología",
+        "Traumatología"
+      ],
+      "direccion": "Leandro N. Alem 1552",
+      "telefono": "(011) 4299-1200",
+      "latitud": "-34.7961",
+      "longitud": "-58.3948"
+    },
+    {
+      "localidad": "Almirante Brown",
+      "nombre": "Hospital Subzonal Especializado en Rehabilitación Dr. Horacio P. Cestino",
+      "especialidades": [
+        "Rehabilitación",
+        "Neurología",
+        "Ortopedia",
+        "Traumatología"
+      ],
+      "direccion": "R. Mejía 1395",
+      "telefono": "(011) 4214-3355",
+      "latitud": "-34.7651",
+      "longitud": "-58.3533"
+    },
+    {
+      "localidad": "Almirante Brown",
+      "nombre": "Centro de Salud Villa Itatí",
+      "especialidades": ["Pediatría", "Ginecología", "Obstetricia"],
+      "direccion": "Santander y Pacheco",
+      "telefono": "(011) 4214-9100",
+      "latitud": "-34.7788",
+      "longitud": "-58.3636"
+    },
+    {
+      "localidad": "Arrecifes",
+      "nombre": "Hospital Santa Francisca Romana",
+      "especialidades": [
+        "Cardiología",
+        "Cirugía General",
+        "Ginecología",
+        "Obstetricia",
+        "Oftalmología"
+      ],
+      "direccion": "Avenida Merlassino 450",
+      "telefono": "(02478) 453000",
+      "latitud": "-34.0624",
+      "longitud": "-60.0983"
+    },
+    {
+      "localidad": "Arrecifes",
+      "nombre": "Centro de Atención Primaria de la Salud (CAPS) N° 1 Dr. Walter Stehli",
+      "especialidades": [
+        "Clínica Médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "direccion": "Alsina 540",
+      "telefono": "(02478) 452150",
+      "latitud": "-34.0649",
+      "longitud": "-60.0981"
+    },
+    {
+      "localidad": "Arrecifes",
+      "nombre": "Centro de Atención Primaria de la Salud (CAPS) N° 2 Dr. Armando Segundo Zaldivar",
+      "especialidades": [
+        "Clínica Médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "direccion": "Garibaldi y Monseñor De Andrea",
+      "telefono": "(02478) 456142",
+      "latitud": "-34.0641",
+      "longitud": "-60.1053"
+    },
+    {
+      "localidad": "Arrecifes",
+      "nombre": "Centro de Atención Primaria de la Salud (CAPS) N° 3 Dr. Ricardo Valdez",
+      "especialidades": [
+        "Clínica Médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "direccion": "9 de Julio 770",
+      "telefono": "(02478) 451046",
+      "latitud": "-34.0664",
+      "longitud": "-60.0893"
+    },
+    {
+      "localidad": "Arrecifes",
+      "nombre": "Centro de Atención Primaria de la Salud (CAPS) N° 4 Dr. Arturo Nemesio Venturino",
+      "especialidades": [
+        "Clínica Médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "direccion": "Sarmiento 365",
+      "telefono": "(02478) 454292",
+      "latitud": "-34.0624",
+      "longitud": "-60.0964"
+    },
+    {
+      "localidad": "Avellaneda",
+      "nombre": "Hospital Pedro Fiorito",
+      "especialidades": [
+        "Cardiología",
+        "Neurología",
+        "Pediatría",
+        "Oncología",
+        "Cirugía"
+      ],
+      "direccion": "Arredondo 359",
+      "telefono": "(011) 4205-8800",
+      "latitud": "-34.6735",
+      "longitud": "-58.3702"
+    },
+    {
+      "localidad": "Avellaneda",
+      "nombre": "Hospital Ana Goitía",
+      "especialidades": [
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia",
+        "Clínica Médica",
+        "Cirugía General"
+      ],
+      "direccion": "Craviotto 375",
+      "telefono": "(011) 4222-1654",
+      "latitud": "-34.6627",
+      "longitud": "-58.3712"
+    },
+    {
+      "localidad": "Avellaneda",
+      "nombre": "Centro de Atención Primaria de la Salud (CAPS) N° 1",
+      "especialidades": [
+        "Clínica Médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "direccion": "Laprida 1157",
+      "telefono": "(011) 4205-2033",
+      "latitud": "-34.6711",
+      "longitud": "-58.3706"
+    },
+    {
+      "localidad": "Avellaneda",
+      "nombre": "Centro de Atención Primaria de la Salud (CAPS) N° 2",
+      "especialidades": [
+        "Clínica Médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "direccion": "Joaquín V. González 2182",
+      "telefono": "(011) 4205-2034",
+      "latitud": "-34.6726",
+      "longitud": "-58.3813"
+    },
+    {
+      "localidad": "Avellaneda",
+      "nombre": "Centro de Atención Primaria de la Salud (CAPS) N° 3",
+      "especialidades": [
+        "Clínica Médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "telefono": "(011) 4205-2035",
+      "latitud": "-34.6673",
+      "longitud": "-58.3825"
+    },
+    {
+      "localidad": "Ayacucho",
+      "nombre": "Hospital Municipal Dr. Tomás A. Ducó",
+      "especialidades": [
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia",
+        "Clínica Médica",
+        "Cirugía General"
+      ],
+      "direccion": "Av. Dr. Víctor Manuel Romanense 550",
+      "telefono": "(02296) 45-3270",
+      "latitud": "-37.1452",
+      "longitud": "-59.7147"
+    },
+    {
+      "localidad": "Ayacucho",
+      "nombre": "Centro de Atención Primaria de la Salud (CAPS) N° 1",
+      "especialidades": [
+        "Clínica Médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "direccion": "Av. Dr. Víctor Manuel Romanense 743",
+      "telefono": "(02296) 45-4529",
+      "latitud": "-37.1461",
+      "longitud": "-59.7189"
+    },
+    {
+      "localidad": "Ayacucho",
+      "nombre": "Centro de Atención Primaria de la Salud (CAPS) N° 2",
+      "especialidades": [
+        "Clínica Médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "direccion": "San Martín 1196",
+      "telefono": "(02296) 45-2484",
+      "latitud": "-37.1474",
+      "longitud": "-59.7255"
+    },
+    {
+      "localidad": "Azul",
+      "nombre": "Hospital Municipal Dr. Ángel Pintos",
+      "especialidades": [
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia",
+        "Clínica Médica",
+        "Cirugía General"
+      ],
+      "direccion": "Urquiza 599",
+      "telefono": "(02281) 43-3311",
+      "latitud": "-36.7779",
+      "longitud": "-59.8706"
+    },
+    {
+      "localidad": "Azul",
+      "nombre": "Hospital Neuropsiquiátrico Domingo Cabred",
+      "especialidades": ["Psiquiatría", "Psicología", "Neurología"],
+      "direccion": "Avenida Cane 1854",
+      "telefono": "(02281) 43-3020",
+      "latitud": "-36.7881",
+      "longitud": "-59.8577"
+    },
+    {
+      "localidad": "Azul",
+      "nombre": "Hospital Municipal Materno Infantil Argentina Diego",
+      "especialidades": ["Pediatría", "Ginecología", "Obstetricia"],
+      "direccion": "Avenida 25 de Mayo 607",
+      "telefono": "(02281) 43-6333",
+      "latitud": "-36.7765",
+      "longitud": "-59.8531"
+    },
+    {
+      "localidad": "Azul",
+      "nombre": "Centro de Atención Primaria de la Salud (CAPS) N° 1",
+      "especialidades": [
+        "Clínica Médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "direccion": "Moreno y Cáneva",
+      "telefono": "(02281) 43-1906",
+      "latitud": "-36.7763",
+      "longitud": "-59.8485"
+    },
+    {
+      "localidad": "Azul",
+      "nombre": "Centro de Atención Primaria de la Salud (CAPS) N° 2",
+      "especialidades": [
+        "Clínica Médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "direccion": "San Martín 650",
+      "telefono": "(02281) 42-4220",
+      "latitud": "-36.7761",
+      "longitud": "-59.8417"
+    },
+    {
+      "localidad": "Bahía Blanca",
+      "nombre": "Hospital Interzonal Dr. José Penna",
+      "especialidades": [
+        "Cardiología",
+        "Cirugía General",
+        "Ginecología",
+        "Neumonología",
+        "Oftalmología",
+        "Oncología",
+        "Pediatría",
+        "Traumatología"
+      ],
+      "direccion": "12 de octubre 1076",
+      "telefono": "(0291) 459-3000",
+      "latitud": "-38.7262",
+      "longitud": "-62.2664"
+    },
+    {
+      "localidad": "Bahía Blanca",
+      "nombre": "Hospital Municipal Dr. Leónidas Lucero",
+      "especialidades": ["Ginecología", "Obstetricia", "Pediatría"],
+      "direccion": "España 745",
+      "telefono": "(0291) 455-7165",
+      "latitud": "-38.7196",
+      "longitud": "-62.2702"
+    },
+    {
+      "localidad": "Bahía Blanca",
+      "nombre": "Hospital de Niños Dr. Lucio Molas",
+      "especialidades": [
+        "Cardiología Pediátrica",
+        "Neumonología Pediátrica",
+        "Oncología Pediátrica"
+      ],
+      "direccion": "12 de octubre 1401",
+      "telefono": "(0291) 459-3020",
+      "latitud": "-38.7225",
+      "longitud": "-62.2672"
+    },
+    {
+      "localidad": "Bahía Blanca",
+      "nombre": "Hospital Dr. Alejandro Korn",
+      "especialidades": [
+        "Oncología",
+        "Hematología",
+        "Reumatología",
+        "Infectología",
+        "Neurología",
+        "Nefrología"
+      ],
+      "direccion": "12 de octubre 1246",
+      "telefono": "(0291) 459-3333",
+      "latitud": "-38.7263",
+      "longitud": "-62.2673"
+    },
+    {
+      "localidad": "Bahía Blanca",
+      "nombre": "Centro de Atención Primaria de la Salud (CAPS) N° 1",
+      "especialidades": [
+        "Clínica Médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "direccion": "Soler 1500",
+      "telefono": "(0291) 452-1297",
+      "latitud": "-38.7325",
+      "longitud": "-62.2652"
+    },
+    {
+      "localidad": "Balcarce",
+      "nombre": "Hospital Municipal de Balcarce",
+      "especialidades": [
+        "Clínica médica",
+        "Ginecología",
+        "Obstetricia",
+        "Pediatría",
+        "Traumatología",
+        "Oftalmología",
+        "Odontología",
+        "Psicología",
+        "Nutrición"
+      ],
+      "direccion": "Av. Suipacha 650",
+      "telefono": "+54 2266 420100",
+      "latitud": "-37.8474",
+      "longitud": "-58.2435"
+    },
+    {
+      "localidad": "Balcarce",
+      "nombre": "Clínica San Juan",
+      "especialidades": [
+        "Clínica médica",
+        "Ginecología",
+        "Obstetricia",
+        "Pediatría",
+        "Traumatología",
+        "Oftalmología",
+        "Odontología",
+        "Psicología",
+        "Nutrición"
+      ],
+      "direccion": "Av. San Martín 2001",
+      "telefono": "+54 2266 420855",
+      "latitud": "-37.8469",
+      "longitud": "-58.2506"
+    },
+    {
+      "localidad": "Baradero",
+      "nombre": "Hospital Municipal San José",
+      "especialidades": [
+        "Clínica médica",
+        "Ginecología",
+        "Obstetricia",
+        "Pediatría",
+        "Traumatología",
+        "Oftalmología",
+        "Odontología",
+        "Psicología",
+        "Nutrición"
+      ],
+      "direccion": "Estrada 800",
+      "telefono": "+54 3388 426007",
+      "latitud": "-33.8085",
+      "longitud": "-59.5101"
+    },
+    {
+      "localidad": "Baradero",
+      "nombre": "Clínica Baradero",
+      "especialidades": [
+        "Clínica médica",
+        "Ginecología",
+        "Obstetricia",
+        "Pediatría",
+        "Traumatología",
+        "Oftalmología",
+        "Odontología",
+        "Psicología",
+        "Nutrición"
+      ],
+      "direccion": "Lavalle 771",
+      "telefono": "+54 3388 431411",
+      "latitud": "-33.8123",
+      "longitud": "-59.5117"
+    },
+    {
+      "localidad": "Benito Juárez",
+      "nombre": "Hospital Municipal Dr. Ángel Pintos",
+      "especialidades": [
+        "Clínica médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia",
+        "Traumatología",
+        "Oftalmología",
+        "Odontología",
+        "Psicología"
+      ],
+      "direccion": "Belgrano 650",
+      "telefono": "+54 2292 42-1600",
+      "latitud": "-37.6706",
+      "longitud": "-59.8029"
+    },
+    {
+      "localidad": "Benito Juárez",
+      "nombre": "Centro de Salud Dr. Norberto Troilo",
+      "especialidades": [
+        "Clínica médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia",
+        "Odontología"
+      ],
+      "direccion": "Necochea 215",
+      "telefono": "+54 2292 42-1169",
+      "latitud": "-37.6783",
+      "longitud": "-59.7898"
+    },
+    {
+      "localidad": "Benito Juárez",
+      "nombre": "Centro de Atención Primaria de la Salud",
+      "especialidades": [
+        "Clínica médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "direccion": "D'Orbigny 1062",
+      "telefono": "+54 2292 42-1140",
+      "latitud": "-37.6752",
+      "longitud": "-59.7941"
+    },
+    {
+      "localidad": "Villa Cacique-Barker",
+      "nombre": "Centro de Salud Dr. Eduardo C. Ladriere",
+      "especialidades": [
+        "Clínica médica",
+        "Pediatría",
+        "Ginecología",
+        "Obstetricia"
+      ],
+      "direccion": "Castelli 375",
+      "telefono": "+54 2292 45-3300",
+      "latitud": "-37.7764",
+      "longitud": "-59.8428"
+    },
+    {
+      "localidad": "Berazategui",
+      "nombre": "Hospital Evita Pueblo",
+      "especialidades": [
+        "Cardiología",
+        "Traumatología",
+        "Oftalmología",
+        "Gastroenterología"
+      ],
+      "direccion": "Avenida 21 Nº 1671",
+      "telefono": "(011) 4216-3622",
+      "latitud": "-34.7550",
+      "longitud": "-58.2176"
+    },
+    {
+      "localidad": "Berazategui",
+      "nombre": "Hospital Subzonal Especializado Dr. Alejandro Korn",
+      "especialidades": [
+        "Cardiología",
+        "Ginecología",
+        "Pediatría",
+        "Neumonología"
+      ],
+      "direccion": "Calle 157 N° 785",
+      "telefono": "(02229) 422511",
+      "latitud": "-34.7448",
+      "longitud": "-58.1906"
+    },
+    {
+      "localidad": "Berazategui",
+      "nombre": "Hospital Dr. Luis Federico Leloir",
+      "especialidades": [
+        "Cardiología",
+        "Oncología",
+        "Neurología",
+        "Dermatología"
+      ],
+      "direccion": "Av. Milazzo y calle 14",
+      "telefono": "(011) 4224-1112",
+      "latitud": "-34.7791",
+      "longitud": "-58.1979"
+    },
+    {
+      "localidad": "Berazategui",
+      "nombre": "Hospital Subzonal Especializado Dr. Eduardo Wilde",
+      "especialidades": [
+        "Cardiología",
+        "Ginecología",
+        "Oftalmología",
+        "Traumatología"
+      ],
+      "direccion": "Calle 148 N° 1308",
+      "telefono": "(02229) 491100",
+      "latitud": "-34.7497",
+      "longitud": "-58.2269"
+    },
+    {
+      "localidad": "Berisso",
+      "nombre": "Hospital Mario Larrain",
+      "especialidades": [
+        "Cardiología",
+        "Ginecología",
+        "Pediatría",
+        "Neumonología"
+      ],
+      "direccion": "Calle 17 y 165",
+      "telefono": "(0221) 464-7070",
+      "latitud": "-34.8811",
+      "longitud": "-57.8832"
+    },
+    {
+      "localidad": "Berisso",
+      "nombre": "Centro de Salud Berisso II",
+      "especialidades": [
+        "Pediatría",
+        "Ginecología",
+        "Odontología",
+        "Clínica médica"
+      ],
+      "direccion": "Calle 126 e/ 8 y 9",
+      "telefono": "(0221) 484-2188",
+      "latitud": "-34.9065",
+      "longitud": "-57.9394"
+    },
+    {
+      "localidad": "Berisso",
+      "nombre": "Centro de Salud Berisso I",
+      "especialidades": [
+        "Pediatría",
+        "Ginecología",
+        "Odontología",
+        "Clínica médica"
+      ],
+      "direccion": "Calle 18 y 168",
+      "telefono": "(0221) 464-1285",
+      "latitud": "-34.8853",
+      "longitud": "-57.8863"
+    },
+    {
+      "localidad": "Berisso",
+      "nombre": "Hospital San Juan Bautista",
+      "especialidades": [
+        "Cardiología",
+        "Oftalmología",
+        "Neurología",
+        "Traumatología"
+      ],
+      "direccion": "Calle 10 Nº 1553",
+      "telefono": "(0221) 461-0101",
+      "latitud": "-34.9056",
+      "longitud": "-57.8838"
+    },
+    [
+      {
+        "localidad": "Bolívar",
+        "nombre": "Hospital Municipal San Carlos",
+        "especialidades": ["Cardiología", "Pediatría", "Oncología"],
+        "direccion": "Av. San Martín 250",
+        "telefono": "02314 42-1666",
+        "latitud": "-36.2277",
+        "longitud": "-61.1651"
+      },
+      {
+        "localidad": "Bolívar",
+        "nombre": "Centro de Atención Primaria de la Salud Dr. Ezequiel Chiavassa",
+        "especialidades": ["Medicina General", "Pediatría", "Odontología"],
+        "direccion": "Manuela Pedraza 400",
+        "telefono": "02314 42-7270",
+        "latitud": "-36.2269",
+        "longitud": "-61.1662"
+      },
+      [
+        {
+          "localidad": "Bragado",
+          "nombre": "Hospital Municipal San Luis",
+          "especialidades": ["Cardiología", "Pediatría", "Oncología"],
+          "direccion": "Av. San Martín 550",
+          "telefono": "02342 42-4100",
+          "latitud": "-35.1155",
+          "longitud": "-60.4896"
+        },
+        {
+          "localidad": "Bragado",
+          "nombre": "Centro de Atención Primaria de la Salud",
+          "especialidades": ["Medicina General", "Pediatría", "Odontología"],
+          "direccion": "E. Alem y Pueyrredón",
+          "telefono": "02342 42-0707",
+          "latitud": "-35.1258",
+          "longitud": "-60.4906"
+        },
+        {
+          "localidad": "Brandsen",
+          "nombre": "Hospital San Juan de Dios",
+          "especialidades": ["Clínica Médica", "Pediatría", "Tocoginecología"],
+          "direccion": "Calle 17 entre Mitre y Belgrano",
+          "telefono": "02223 442002",
+          "latitud": "-35.1935",
+          "longitud": "-58.2368"
+        },
+        {
+          "localidad": "Brandsen",
+          "nombre": "Centro de Atención Primaria de la Salud (CAPS) Brandsen",
+          "especialidades": ["Medicina General"],
+          "direccion": "Calle 22 y 17",
+          "telefono": "02223 442232",
+          "latitud": "-35.1940",
+          "longitud": "-58.2377"
+        },
+        {
+          "localidad": "Brandsen",
+          "nombre": "Centro Médico Brandsen",
+          "especialidades": ["Análisis Clínicos", "Ecografías", "Radiografías"],
+          "direccion": "Bolívar 550",
+          "telefono": "02223 443610",
+          "latitud": "-35.1924",
+          "longitud": "-58.2395"
+        },
+        {
+          "localidad": "Campana",
+          "nombre": "Hospital Municipal San José",
+          "especialidades": [
+            "Clínica Médica",
+            "Cardiología",
+            "Pediatría",
+            "Tocoginecología",
+            "Oncología",
+            "Odontología",
+            "Traumatología"
+          ],
+          "direccion": "San Martín 750",
+          "telefono": "03489-438000",
+          "latitud": "-34.1713",
+          "longitud": "-58.9654"
+        },
+        {
+          "localidad": "Campana",
+          "nombre": "Centro de Atención Primaria de la Salud N° 10",
+          "especialidades": [
+            "Clínica Médica",
+            "Odontología",
+            "Pediatría",
+            "Tocoginecología",
+            "Traumatología"
+          ],
+          "direccion": "Laprida y Antártida Argentina",
+          "telefono": "03489-422497",
+          "latitud": "-34.1745",
+          "longitud": "-58.9401"
+        },
+        {
+          "localidad": "Campana",
+          "nombre": "Centro de Atención Primaria de la Salud N° 6",
+          "especialidades": ["Clínica Médica", "Odontología", "Pediatría"],
+          "direccion": "Castelli y Belgrano",
+          "telefono": "03489-422497",
+          "latitud": "-34.1669",
+          "longitud": "-58.9637"
+        },
+        {
+          "localidad": "Campana",
+          "nombre": "Centro de Atención Primaria de la Salud N° 3",
+          "especialidades": ["Clínica Médica", "Odontología", "Pediatría"],
+          "direccion": "Av. Rivadavia 1579",
+          "telefono": "03489-422497",
+          "latitud": "-34.1698",
+          "longitud": "-58.9545"
+        },
+        {
+          "localidad": "Campana",
+          "nombre": "Centro de Atención Primaria de la Salud N° 5",
+          "especialidades": ["Clínica Médica", "Odontología", "Pediatría"],
+          "direccion": "El Cardenal y Las Heras",
+          "telefono": "03489-422497",
+          "latitud": "-34.1619",
+          "longitud": "-58.9815"
+        },
+        {
+          "localidad": "Campana",
+          "nombre": "Centro de Atención Primaria de la Salud N° 7",
+          "especialidades": ["Clínica Médica", "Odontología", "Pediatría"],
+          "direccion": "Av. Battaglia y Calle 17",
+          "telefono": "03489-422497",
+          "latitud": "-34.1906",
+          "longitud": "-58.9565"
+        },
+        {
+          "localidad": "Capitán Sarmiento",
+          "nombre": "Hospital Municipal Nuestra Señora del Carmen",
+          "especialidades": [
+            "Pediatría",
+            "Clínica Médica",
+            "Ginecología",
+            "Obstetricia",
+            "Cardiología"
+          ],
+          "direccion": "Av. 25 de Mayo 1215",
+          "telefono": "02478 482230",
+          "latitud": "-34.1685",
+          "longitud": "-59.7891"
+        },
+        {
+          "localidad": "Carlos Casares",
+          "nombre": "Hospital Municipal San Carlos",
+          "especialidades": [
+            "Clínica Médica",
+            "Pediatría",
+            "Obstetricia",
+            "Ginecología",
+            "Cardiología",
+            "Oftalmología"
+          ],
+          "direccion": "Rivadavia 1191",
+          "telefono": "02395 45-2222",
+          "latitud": "-35.7513",
+          "longitud": "-60.7166"
+        },
+        {
+          "localidad": "Carlos Tejedor",
+          "nombre": "Hospital Municipal",
+          "especialidades": [
+            "Cardiología",
+            "Oftalmología",
+            "Pediatría",
+            "Ginecología",
+            "Obstetricia",
+            "Clínica Médica"
+          ],
+          "direccion": "Rivadavia 65",
+          "telefono": "02357 42-2001",
+          "latitud": "-35.3927",
+          "longitud": "-62.4253"
+        },
+        {
+          "localidad": "Carmen de Areco",
+          "nombre": "Hospital Nuestra Señora del Carmen",
+          "especialidades": [
+            "Clínica Médica",
+            "Pediatría",
+            "Terapia Intensiva",
+            "Cardiología"
+          ],
+          "direccion": "Belgrano 550",
+          "telefono": "02326-442555",
+          "latitud": "-34.3772",
+          "longitud": "-59.8473"
+        },
+        {
+          "localidad": "Carmen de Areco",
+          "nombre": "CAPS Doctor Felipe Juan Boso",
+          "especialidades": [
+            "Clínica Médica",
+            "Pediatría",
+            "Ginecología",
+            "Odontología"
+          ],
+          "direccion": "French y Roque S. Peña",
+          "telefono": "02326-452201",
+          "latitud": "-34.3878",
+          "longitud": "-59.8421"
+        },
+        {
+          "localidad": "Castelli",
+          "nombre": "Hospital Municipal \"Dr. Héctor Cura\"",
+          "especialidades": [
+            "Clínica Médica",
+            "Pediatría",
+            "Odontología",
+            "Traumatología"
+          ],
+          "direccion": "Italia y Ruta 41",
+          "telefono": "02241-441466",
+          "latitud": "-35.7965",
+          "longitud": "-57.8881"
+        },
+        {
+          "localidad": "Castelli",
+          "nombre": "Centro de Salud Dr. Ezequiel Di Salvo",
+          "especialidades": [
+            "Clínica Médica",
+            "Pediatría",
+            "Ginecología",
+            "Odontología"
+          ],
+          "direccion": "Italia y Pueyrredón",
+          "telefono": "02241-440620",
+          "latitud": "-35.7984",
+          "longitud": "-57.8907"
+        },
+        {
+          "localidad": "Cañuelas",
+          "nombre": "Hospital Ángel Marzetti",
+          "especialidades": ["Clínica Médica", "Pediatría", "Ginecología"],
+          "direccion": "Av. Libertad 455",
+          "telefono": "(02226) 42-0400",
+          "latitud": "-35.0498",
+          "longitud": "-58.7691"
+        },
+        {
+          "localidad": "Cañuelas",
+          "nombre": "Centro de Atención Primaria de la Salud Dr. Fernando Peliche",
+          "especialidades": ["Clínica Médica", "Pediatría", "Ginecología"],
+          "direccion": "9 de Julio 641",
+          "telefono": "(02226) 43-5683",
+          "latitud": "-35.0489",
+          "longitud": "-58.7631"
+        },
+        {
+          "localidad": "Cañuelas",
+          "nombre": "Centro de Atención Primaria de la Salud Dr. Héctor B. Giorgi",
+          "especialidades": ["Clínica Médica", "Pediatría", "Ginecología"],
+          "direccion": "Mitre 363",
+          "telefono": "(02226) 42-2298",
+          "latitud": "-35.0421",
+          "longitud": "-58.7645"
+        },
+        {
+          "localidad": "25 de Mayo",
+          "nombre": "Hospital Municipal Dr. Juan Pérez",
+          "especialidades": [
+            "Oncología",
+            "Pediatría",
+            "Ginecología",
+            "Cirugía"
+          ],
+          "direccion": "Avenida San Martín 123",
+          "telefono": "(02245) 42-5678",
+          "latitud": "-35.4321",
+          "longitud": "-60.6789"
+        },
+        {
+          "localidad": "Adolfo Alsina",
+          "nombre": "Hospital Municipal de Adolfo Alsina",
+          "especialidades": [
+            "Cardiología",
+            "Oncología",
+            "Neurología",
+            "Emergentología",
+            "Traumatología",
+            "Cirugía General",
+            "Atención Primaria de la Salud",
+            "Pediatría",
+            "Neonatología",
+            "Terapia Intensiva",
+            "Oftalmología",
+            "Fisioterapia",
+            "Kinesiología",
+            "Terapia Ocupacional",
+            "Ginecología",
+            "Gastroenterología",
+            "Neumonología",
+            "Oncología Pediátrica",
+            "Cirugía Cardiovascular",
+            "Dermatología",
+            "Endocrinología",
+            "Cardiología Pediátrica",
+            "Neurocirugía",
+            "Psiquiatría",
+            "Rehabilitación Neurológica",
+            "Ortopedia",
+            "Obstetricia",
+            "Cirugía",
+            "Rehabilitación",
+            "Clínica Médica",
+            "Psicología",
+            "Neumonología Pediátrica",
+            "Hematología",
+            "Reumatología",
+            "Infectología",
+            "Nefrología",
+            "Clínica médica",
+            "Odontología",
+            "Nutrición"
+          ],
+          "direccion": "Calle Principal 123",
+          "telefono": "(02236) 12-3456",
+          "latitud": "-37.1234",
+          "longitud": "-61.7890"
+        },
+        {
+          "localidad": "Adolfo Alsina",
+          "nombre": "Centro de Atención Médica Dr. Juan Pérez",
+          "especialidades": ["Clínica Médica", "Pediatría", "Ginecología"],
+          "direccion": "Avenida Central 456",
+          "telefono": "(02236) 45-6789",
+          "latitud": "-37.2345",
+          "longitud": "-61.8901"
+        },
+        {
+          "localidad": "Adolfo Alsina",
+          "nombre": "Hospital de Especialidades Dr. Carlos López",
+          "especialidades": [
+            "Cardiología",
+            "Neurología",
+            "Cirugía General",
+            "Oftalmología",
+            "Ginecología",
+            "Dermatología",
+            "Clínica Médica",
+            "Psicología"
+          ],
+          "direccion": "Calle Hospitalaria 789",
+          "telefono": "(02236) 78-9012",
+          "latitud": "-37.3456",
+          "longitud": "-62.0123"
+        },
+        {
+          "localidad": "Adolfo Gonzales Chávez",
+          "nombre": "Hospital Municipal de Adolfo Gonzales Chávez",
+          "especialidades": [
+            "Cardiología",
+            "Oncología",
+            "Neurología",
+            "Emergentología",
+            "Traumatología",
+            "Cirugía General",
+            "Atención Primaria de la Salud",
+            "Pediatría",
+            "Neonatología",
+            "Terapia Intensiva",
+            "Oftalmología",
+            "Fisioterapia",
+            "Kinesiología",
+            "Terapia Ocupacional",
+            "Ginecología",
+            "Gastroenterología",
+            "Neumonología",
+            "Oncología Pediátrica",
+            "Cirugía Cardiovascular",
+            "Dermatología",
+            "Endocrinología",
+            "Cardiología Pediátrica",
+            "Neurocirugía",
+            "Psiquiatría",
+            "Rehabilitación Neurológica",
+            "Ortopedia",
+            "Obstetricia",
+            "Cirugía",
+            "Rehabilitación",
+            "Clínica Médica",
+            "Psicología",
+            "Neumonología Pediátrica",
+            "Hematología",
+            "Reumatología",
+            "Infectología",
+            "Nefrología",
+            "Clínica médica",
+            "Odontología",
+            "Nutrición"
+          ],
+          "direccion": "Calle Principal 123",
+          "telefono": "(02237) 12-3456",
+          "latitud": "-36.1234",
+          "longitud": "-61.7890"
+        },
+        {
+          "localidad": "Adolfo Gonzales Chávez",
+          "nombre": "Centro de Atención Médica Dr. María López",
+          "especialidades": ["Clínica Médica", "Pediatría", "Ginecología"],
+          "direccion": "Avenida Central 456",
+          "telefono": "(02237) 45-6789",
+          "latitud": "-36.2345",
+          "longitud": "-61.8901"
+        },
+        {
+          "localidad": "Adolfo Gonzales Chávez",
+          "nombre": "Hospital de Especialidades Dr. Juan Rodríguez",
+          "especialidades": [
+            "Cardiología",
+            "Neurología",
+            "Cirugía General",
+            "Oftalmología",
+            "Ginecología",
+            "Dermatología",
+            "Clínica Médica",
+            "Psicología"
+          ],
+          "direccion": "Calle Hospitalaria 789",
+          "telefono": "(02237) 78-9012",
+          "latitud": "-36.3456",
+          "longitud": "-62.0123"
+        },
+        {
+          "localidad": "Alberti",
+          "nombre": "Hospital Municipal de Alberti",
+          "especialidades": [
+            "Cardiología",
+            "Oncología",
+            "Neurología",
+            "Emergentología",
+            "Traumatología",
+            "Cirugía General",
+            "Atención Primaria de la Salud",
+            "Pediatría",
+            "Neonatología",
+            "Terapia Intensiva",
+            "Oftalmología",
+            "Fisioterapia",
+            "Kinesiología",
+            "Terapia Ocupacional",
+            "Ginecología",
+            "Gastroenterología",
+            "Neumonología",
+            "Oncología Pediátrica",
+            "Cirugía Cardiovascular",
+            "Dermatología",
+            "Endocrinología",
+            "Cardiología Pediátrica",
+            "Neurocirugía",
+            "Psiquiatría",
+            "Rehabilitación Neurológica",
+            "Ortopedia",
+            "Obstetricia",
+            "Cirugía",
+            "Rehabilitación",
+            "Clínica Médica",
+            "Psicología",
+            "Neumonología Pediátrica",
+            "Hematología",
+            "Reumatología",
+            "Infectología",
+            "Nefrología",
+            "Clínica médica",
+            "Odontología",
+            "Nutrición"
+          ],
+          "direccion": "Calle Principal 123",
+          "telefono": "(02244) 12-3456",
+          "latitud": "-35.9876",
+          "longitud": "-60.1234"
+        },
+        {
+          "localidad": "Alberti",
+          "nombre": "Centro de Atención Médica Dr. Martín Gómez",
+          "especialidades": ["Clínica Médica", "Pediatría", "Ginecología"],
+          "direccion": "Avenida Central 456",
+          "telefono": "(02244) 45-6789",
+          "latitud": "-35.8765",
+          "longitud": "-60.2345"
+        },
+        {
+          "localidad": "Alberti",
+          "nombre": "Hospital de Especialidades Dr. Juan Pérez",
+          "especialidades": [
+            "Cardiología",
+            "Neurología",
+            "Cirugía General",
+            "Oftalmología",
+            "Ginecología",
+            "Dermatología",
+            "Clínica Médica",
+            "Psicología"
+          ],
+          "direccion": "Calle Hospitalaria 789",
+          "telefono": "(02244) 78-9012",
+          "latitud": "-35.7654",
+          "longitud": "-60.3456"
+        },
+        {
+          "localidad": "Almirante Brown",
+          "nombre": "Hospital Público Dr. Carlos Bianco",
+          "especialidades": [
+            "Cardiología",
+            "Oncología",
+            "Neurología",
+            "Emergentología",
+            "Traumatología",
+            "Cirugía General",
+            "Atención Primaria de la Salud",
+            "Pediatría",
+            "Neonatología",
+            "Terapia Intensiva",
+            "Oftalmología",
+            "Fisioterapia",
+            "Kinesiología",
+            "Terapia Ocupacional",
+            "Ginecología",
+            "Gastroenterología",
+            "Neumonología",
+            "Oncología Pediátrica",
+            "Cirugía Cardiovascular",
+            "Dermatología",
+            "Endocrinología",
+            "Cardiología Pediátrica",
+            "Neurocirugía",
+            "Psiquiatría",
+            "Rehabilitación Neurológica",
+            "Ortopedia",
+            "Obstetricia",
+            "Cirugía",
+            "Rehabilitación",
+            "Clínica Médica",
+            "Psicología",
+            "Neumonología Pediátrica",
+            "Hematología",
+            "Reumatología",
+            "Infectología",
+            "Nefrología",
+            "Clínica médica",
+            "Odontología",
+            "Nutrición"
+          ],
+          "direccion": "Av. Principal 123",
+          "telefono": "(0223) 45-6789",
+          "latitud": "-34.9876",
+          "longitud": "-58.1234"
+        },
+        {
+          "localidad": "Almirante Brown",
+          "nombre": "Centro de Salud Dr. Juan Pérez",
+          "especialidades": ["Clínica Médica", "Pediatría", "Ginecología"],
+          "direccion": "Calle Saludable 456",
+          "telefono": "(0223) 12-3456",
+          "latitud": "-34.8765",
+          "longitud": "-58.2345"
+        },
+        {
+          "localidad": "Almirante Brown",
+          "nombre": "Hospital de Especialidades Dr. Martín Gómez",
+          "especialidades": [
+            "Cardiología",
+            "Neurología",
+            "Cirugía General",
+            "Oftalmología",
+            "Ginecología",
+            "Dermatología",
+            "Clínica Médica",
+            "Psicología"
+          ],
+          "direccion": "Av. Hospitalaria 789",
+          "telefono": "(0223) 78-9012",
+          "latitud": "-34.7654",
+          "longitud": "-58.3456"
+        },
+        {
+          "localidad": "Arrecifes",
+          "nombre": "Hospital Público Dr. Juan Pérez",
+          "especialidades": [
+            "Cardiología",
+            "Oncología",
+            "Neurología",
+            "Emergentología",
+            "Traumatología",
+            "Cirugía General",
+            "Atención Primaria de la Salud",
+            "Pediatría",
+            "Neonatología",
+            "Terapia Intensiva",
+            "Oftalmología",
+            "Fisioterapia",
+            "Kinesiología",
+            "Terapia Ocupacional",
+            "Ginecología",
+            "Gastroenterología",
+            "Neumonología",
+            "Oncología Pediátrica",
+            "Cirugía Cardiovascular",
+            "Dermatología",
+            "Endocrinología",
+            "Cardiología Pediátrica",
+            "Neurocirugía",
+            "Psiquiatría",
+            "Rehabilitación Neurológica",
+            "Ortopedia",
+            "Obstetricia",
+            "Cirugía",
+            "Rehabilitación",
+            "Clínica Médica",
+            "Psicología",
+            "Neumonología Pediátrica",
+            "Hematología",
+            "Reumatología",
+            "Infectología",
+            "Nefrología",
+            "Clínica médica",
+            "Odontología",
+            "Nutrición"
+          ],
+          "direccion": "Av. Principal 123",
+          "telefono": "(0223) 45-6789",
+          "latitud": "-34.9876",
+          "longitud": "-58.1234"
+        },
+        {
+          "localidad": "Arrecifes",
+          "nombre": "Centro de Salud Dr. María Rodríguez",
+          "especialidades": ["Clínica Médica", "Pediatría", "Ginecología"],
+          "direccion": "Calle Saludable 456",
+          "telefono": "(0223) 12-3456",
+          "latitud": "-34.8765",
+          "longitud": "-58.2345"
+        },
+        {
+          "localidad": "Arrecifes",
+          "nombre": "Hospital de Especialidades Dr. Carlos García",
+          "especialidades": [
+            "Cardiología",
+            "Neurología",
+            "Cirugía General",
+            "Oftalmología",
+            "Ginecología",
+            "Dermatología",
+            "Clínica Médica",
+            "Psicología"
+          ],
+          "direccion": "Av. Hospitalaria 789",
+          "telefono": "(0223) 78-9012",
+          "latitud": "-34.7654",
+          "longitud": "-58.3456"
+        },
+        {
+          "localidad": "Avellaneda",
+          "nombre": "Hospital Municipal Dr. Pedro Montaña",
+          "especialidades": [
+            "Cardiología",
+            "Oncología",
+            "Neurología",
+            "Emergentología",
+            "Traumatología",
+            "Cirugía General",
+            "Atención Primaria de la Salud",
+            "Pediatría",
+            "Neonatología",
+            "Terapia Intensiva",
+            "Oftalmología",
+            "Fisioterapia",
+            "Kinesiología",
+            "Terapia Ocupacional",
+            "Ginecología",
+            "Gastroenterología",
+            "Neumonología",
+            "Oncología Pediátrica",
+            "Cirugía Cardiovascular",
+            "Dermatología",
+            "Endocrinología",
+            "Cardiología Pediátrica",
+            "Neurocirugía",
+            "Psiquiatría",
+            "Rehabilitación Neurológica",
+            "Ortopedia",
+            "Obstetricia",
+            "Cirugía",
+            "Rehabilitación",
+            "Clínica Médica",
+            "Psicología",
+            "Neumonología Pediátrica",
+            "Hematología",
+            "Reumatología",
+            "Infectología",
+            "Nefrología",
+            "Clínica médica",
+            "Odontología",
+            "Nutrición"
+          ],
+          "direccion": "Av. San Martín 123",
+          "telefono": "(011) 45-6789",
+          "latitud": "-34.9876",
+          "longitud": "-58.1234"
+        },
+        {
+          "localidad": "Avellaneda",
+          "nombre": "Centro de Salud Dr. María López",
+          "especialidades": ["Clínica Médica", "Pediatría", "Ginecología"],
+          "direccion": "Calle Saludable 456",
+          "telefono": "(011) 12-3456",
+          "latitud": "-34.8765",
+          "longitud": "-58.2345"
+        },
+        {
+          "localidad": "Avellaneda",
+          "nombre": "Hospital de Especialidades Dr. Carlos Rodríguez",
+          "especialidades": [
+            "Cardiología",
+            "Neurología",
+            "Cirugía General",
+            "Oftalmología",
+            "Ginecología",
+            "Dermatología",
+            "Clínica Médica",
+            "Psicología"
+          ],
+          "direccion": "Av. Hospitalaria 789",
+          "telefono": "(011) 78-9012",
+          "latitud": "-34.7654",
+          "longitud": "-58.3456"
+        },
+        {
+          "localidad": "Ayacucho",
+          "nombre": "Hospital Municipal Dr. Juan Carlos Caccavo",
+          "especialidades": [
+            "Cardiología",
+            "Oncología",
+            "Neurología",
+            "Emergentología",
+            "Traumatología",
+            "Cirugía General",
+            "Atención Primaria de la Salud",
+            "Pediatría",
+            "Neonatología",
+            "Terapia Intensiva",
+            "Oftalmología",
+            "Fisioterapia",
+            "Kinesiología",
+            "Terapia Ocupacional",
+            "Ginecología",
+            "Gastroenterología",
+            "Neumonología",
+            "Oncología Pediátrica",
+            "Cirugía Cardiovascular",
+            "Dermatología",
+            "Endocrinología",
+            "Cardiología Pediátrica",
+            "Neurocirugía",
+            "Psiquiatría",
+            "Rehabilitación Neurológica",
+            "Ortopedia",
+            "Obstetricia",
+            "Cirugía",
+            "Rehabilitación",
+            "Clínica Médica",
+            "Psicología",
+            "Neumonología Pediátrica",
+            "Hematología",
+            "Reumatología",
+            "Infectología",
+            "Nefrología",
+            "Clínica médica",
+            "Odontología",
+            "Nutrición"
+          ],
+          "direccion": "Av. San Martín 123",
+          "telefono": "(02296) 45-6789",
+          "latitud": "-38.0123",
+          "longitud": "-58.2345"
+        },
+        {
+          "localidad": "Ayacucho",
+          "nombre": "Centro de Salud Dr. María Rodríguez",
+          "especialidades": ["Clínica Médica", "Pediatría", "Ginecología"],
+          "direccion": "Calle Saludable 456",
+          "telefono": "(02296) 12-3456",
+          "latitud": "-38.1234",
+          "longitud": "-58.3456"
+        },
+        {
+          "localidad": "Ayacucho",
+          "nombre": "Hospital de Especialidades Dr. Carlos López",
+          "especialidades": [
+            "Cardiología",
+            "Neurología",
+            "Cirugía General",
+            "Oftalmología",
+            "Ginecología",
+            "Dermatología",
+            "Clínica Médica",
+            "Psicología"
+          ],
+          "direccion": "Av. Hospitalaria 789",
+          "telefono": "(02296) 78-9012",
+          "latitud": "-38.2345",
+          "longitud": "-58.4567"
+        },
+
+        {
+          "localidad": "Azul",
+          "nombre": "Hospital Municipal San Francisco de Asís",
+          "especialidades": [
+            "Cardiología",
+            "Oncología",
+            "Neurología",
+            "Emergentología",
+            "Traumatología",
+            "Cirugía General",
+            "Atención Primaria de la Salud",
+            "Pediatría",
+            "Neonatología",
+            "Terapia Intensiva",
+            "Oftalmología",
+            "Fisioterapia",
+            "Kinesiología",
+            "Terapia Ocupacional",
+            "Ginecología",
+            "Gastroenterología",
+            "Neumonología",
+            "Oncología Pediátrica",
+            "Cirugía Cardiovascular",
+            "Dermatología",
+            "Endocrinología",
+            "Cardiología Pediátrica",
+            "Neurocirugía",
+            "Psiquiatría",
+            "Rehabilitación Neurológica",
+            "Ortopedia",
+            "Obstetricia",
+            "Cirugía",
+            "Rehabilitación",
+            "Clínica Médica",
+            "Psicología",
+            "Neumonología Pediátrica",
+            "Hematología",
+            "Reumatología",
+            "Infectología",
+            "Nefrología",
+            "Clínica médica",
+            "Odontología",
+            "Nutrición"
+          ],
+          "direccion": "Av. San Francisco 123",
+          "telefono": "(02281) 45-6789"
+        }
+      ]
+    ]
   ]
 }

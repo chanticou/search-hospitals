@@ -1,18 +1,54 @@
 import { useEffect, useState } from "react";
-import styles from "@/styles/ContentHospitals.module.css";
 import type { TypedUseSelectorHook } from "react-redux";
 import React, { ChangeEvent } from "react";
-
+import Link from "next/link";
 // LIBRERY REACT MODAL
 import Modal from "react-modal";
 import { useDispatch, useSelector } from "react-redux";
-import type {
-  RootState as StoreRootState,
-  AppDispatch,
-} from "../redux/store/index";
+import type { RootState as StoreRootState } from "../redux/store/index";
 import { GetAllCities, GetAllHospitals } from "../redux/actions/index";
-// import { GoogleMaps } from "../GoogleMaps/GoogleMaps";
+import styles from "@/styles/ContentHospitals.module.css";
 import "animate.css";
+
+// "Cardiología",
+//   "Oncología",
+//   "Neurología",
+//   "Emergentología",
+//   "Traumatología",
+//   "Cirugía General",
+//   "Atención Primaria de la Salud",
+//   "Pediatría",
+//   "Neonatología",
+//   "Terapia Intensiva",
+//   "Oftalmología",
+//   "Fisioterapia",
+//   "Kinesiología",
+//   "Terapia Ocupacional",
+//   "Ginecología",
+//   "Gastroenterología",
+//   "Neumonología",
+//   "Oncología Pediátrica",
+//   "Cirugía Cardiovascular",
+//   "Dermatología",
+//   "Endocrinología",
+//   "Cardiología Pediátrica",
+//   "Neurocirugía",
+//   "Psiquiatría",
+//   "Rehabilitación Neurológica",
+//   "Ortopedia",
+//   "Obstetricia",
+//   "Cirugía",
+//   "Rehabilitación",
+//   "Clínica Médica",
+//   "Psicología",
+//   "Neumonología Pediátrica",
+//   "Hematología",
+//   "Reumatología",
+//   "Infectología",
+//   "Nefrología",
+//   "Clínica médica",
+//   "Odontología",
+//   "Nutrición";
 
 const ContentHospitals = (): JSX.Element => {
   //Global states
@@ -30,19 +66,19 @@ const ContentHospitals = (): JSX.Element => {
   );
 
   //Local states
-  //Open modals
   const [modalIsOpen1, setIsOpenModal1] = useState<boolean>(false);
   const [modalIsOpen2, setIsOpenModal2] = useState<boolean>(false);
-  // const [citiesByAlphabeth, setcitiesByAlphabeth] = useState<any>(null);
   const [specialities, setspecialities] = useState<string[]>([]);
   const [selectValue, setSelectValue] = useState<string>("");
   const [selectSpeciality, setSelectSpeciality] = useState<string[]>([]);
   const [handleSelectCity, sethandleSelectCity] = useState<any>(null);
   const [error, setError] = useState<any>(null);
-  const [firstStep, setFirstStep] = useState<string>("Primer paso");
-  const [secondStep, setSecondStep] = useState<string>("Segundo paso");
-
-  // const [handleOpenMap, setsetHandleOpenMap] = useState<boolean>(false);
+  const [firstStep, setFirstStep] = useState<string>("Primer paso: Localidad");
+  const [secondStep, setSecondStep] = useState<string>(
+    "Segundo paso: Especialización"
+  );
+  const [sendEmail, setSendEmail] = useState<boolean>(false);
+  console.log(specialities, "specialities");
   const [stylesModal, setstylesModal] = useState<any>({
     content: {
       top: "50%",
@@ -70,6 +106,18 @@ const ContentHospitals = (): JSX.Element => {
   };
 
   //Functions
+
+  const EjectFunctions = (
+    hospitals: any,
+    modal: any,
+    step: any,
+    email: any
+  ) => {
+    setSelectSpeciality(hospitals);
+    setIsOpenModal2(modal);
+    setSecondStep(step);
+    setSendEmail(email);
+  };
   function openModal(value: number) {
     if (value === 1) {
       setIsOpenModal1(true);
@@ -92,88 +140,70 @@ const ContentHospitals = (): JSX.Element => {
   };
 
   useEffect(() => {
-    if (selectValue === "Cardiología") {
-      const filteredHospitales = allHospitals.filter(
-        (el: any) =>
-          el.especialidades.includes("Cardiología") &&
-          el.localidad.includes(handleSelectCity)
-      );
+    if (selectValue) {
+      switch (selectValue) {
+        case "Cardiología": {
+          const filteredHospitales = allHospitals.filter(
+            (el: any) =>
+              el.especialidades?.includes("Cardiología") &&
+              el.localidad?.includes(handleSelectCity)
+          );
+          EjectFunctions(filteredHospitales, false, selectValue, true);
+          break;
+        }
+        case "Neurología": {
+          const filteredHospitales = allHospitals.filter(
+            (el: any) =>
+              el.especialidades?.includes("Neurología") &&
+              el.localidad?.includes(handleSelectCity)
+          );
+          EjectFunctions(filteredHospitales, false, selectValue, true);
+          break;
+        }
+        case "Oncología": {
+          const filteredHospitales = allHospitals.filter(
+            (el: any) =>
+              el.especialidades?.includes("Oncología") &&
+              el.localidad?.includes(handleSelectCity)
+          );
+          EjectFunctions(filteredHospitales, false, selectValue, true);
+          break;
+        }
 
-      setSelectSpeciality(filteredHospitales);
-      setIsOpenModal2(false);
-      setSecondStep(selectValue);
-    }
-    if (selectValue === "Neurología") {
-      const filteredHospitales = allHospitals.filter(
-        (el: any) =>
-          el.especialidades.includes("Neurología") &&
-          el.localidad.includes(handleSelectCity)
-      );
-      setSelectSpeciality(filteredHospitales);
-      setIsOpenModal2(false);
-      setSecondStep(selectValue);
-    }
-    if (selectValue === "Oncología") {
-      const filteredHospitales = allHospitals.filter(
-        (el: any) =>
-          el.especialidades.includes("Oncología") &&
-          el.localidad.includes(handleSelectCity)
-      );
+        case "Emergentología": {
+          const filteredHospitales = allHospitals.filter(
+            (el: any) =>
+              el.especialidades?.includes("Emergentología") &&
+              el.localidad?.includes(handleSelectCity)
+          );
+          EjectFunctions(filteredHospitales, false, selectValue, true);
+          break;
+        }
+        case "Pediatría": {
+          const filteredHospitales = allHospitals.filter(
+            (el: any) =>
+              el.especialidades?.includes("Pediatría") &&
+              el.localidad?.includes(handleSelectCity)
+          );
 
-      setIsOpenModal2(false);
-      setSelectSpeciality(filteredHospitales);
+          EjectFunctions(filteredHospitales, false, selectValue, true);
+          break;
+        }
+        case "Traumatología": {
+          const filteredHospitales = allHospitals.filter(
+            (el: any) =>
+              el.especialidades?.includes("Traumatología") &&
+              el.localidad?.includes(handleSelectCity)
+          );
+          EjectFunctions(filteredHospitales, false, selectValue, true);
 
-      setSecondStep(selectValue);
-    }
-    if (selectValue === "Emergentología") {
-      const filteredHospitales = allHospitals.filter(
-        (el: any) =>
-          el.especialidades.includes("Emergentología") &&
-          el.localidad.includes(handleSelectCity)
-      );
-      setSelectSpeciality(filteredHospitales);
-      setIsOpenModal2(false);
-      setSecondStep(selectValue);
-    }
-    if (selectValue === "Traumatología") {
-      const filteredHospitales = allHospitals.filter(
-        (el: any) =>
-          el.especialidades.includes("Traumatología") &&
-          el.localidad.includes(handleSelectCity)
-      );
-      setSelectSpeciality(filteredHospitales);
-      setIsOpenModal2(false);
-      setSecondStep(selectValue);
-    }
-    if (selectValue === "Cirugía General") {
-      const filteredHospitales = allHospitals.filter(
-        (el: any) =>
-          el.especialidades.includes("Cirugía General") &&
-          el.localidad.includes(handleSelectCity)
-      );
-      setSelectSpeciality(filteredHospitales);
-      setIsOpenModal2(false);
-      setSecondStep(selectValue);
-    }
-    if (selectValue === "Atención Primaria de la Salud") {
-      const filteredHospitales = allHospitals.filter(
-        (el: any) =>
-          el.especialidades.includes("Atención Primaria de la Salud") &&
-          el.localidad.includes(handleSelectCity)
-      );
-      setSelectSpeciality(filteredHospitales);
-      setIsOpenModal2(false);
-      setSecondStep(selectValue);
-    }
-    if (selectValue === "Oftalmología") {
-      const filteredHospitales = allHospitals.filter(
-        (el: any) =>
-          el.especialidades.includes("Oftalmología") &&
-          el.localidad.includes(handleSelectCity)
-      );
-      setSelectSpeciality(filteredHospitales);
-      setIsOpenModal2(false);
-      setSecondStep(selectValue);
+          // setSelectSpeciality(filteredHospitales);
+          // setIsOpenModal2(false);
+          // setSecondStep(selectValue);
+          // setSendEmail(true);
+          break;
+        }
+      }
     }
   }, [selectValue]);
 
@@ -191,6 +221,7 @@ const ContentHospitals = (): JSX.Element => {
 
   return (
     <>
+      {console.log(specialities)}
       <div className={styles.contentHospitalsContainer}>
         <h1 className={styles.title}>
           En solo
@@ -219,9 +250,9 @@ const ContentHospitals = (): JSX.Element => {
         >
           <button onClick={() => closeModal(1)}>close</button>
           <div className={styles.selectContainer}>
-            <p className={styles.firstStep}>PRIMER PASO</p>
+            <p className={styles.firstStep}>Primer paso</p>
             <p style={{ textAlign: "center", color: "#3b3b3b" }}>
-              Seleccione la cíudad
+              Seleccione la localidad
             </p>
             <div className={styles.contentSelect}>
               <select
@@ -281,6 +312,19 @@ const ContentHospitals = (): JSX.Element => {
           );
         })}
       </div>
+      {sendEmail && (
+        <div className={styles.contentSendEmail}>
+          <h1>¿Quéres enviarlo a tu email?</h1>
+          <Link
+            href={{
+              pathname: "/Form",
+              query: { selectSpeciality: JSON.stringify(selectSpeciality) },
+            }}
+          >
+            <button className={styles.sendEmail}>AQUI</button>
+          </Link>
+        </div>
+      )}
     </>
   );
 };

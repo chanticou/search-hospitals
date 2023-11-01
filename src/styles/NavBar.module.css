@@ -7,10 +7,10 @@
   text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
 }
 
-.ProductsContainer {
-  color: blue;
+.navBarLink {
+  color: rgb(0, 0, 46);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .contentLinks {
   display: flex;

@@ -9,7 +9,7 @@ export const GetAllCities = () => {
       const url =
         "https://apis.datos.gob.ar/georef/api/municipios?campos=id,nombre,%20provincia.nombre&max=5000";
       const response = await axios.get(url);
-      // console.log(response, "RESPONSE");
+
       const data = await response.data.municipios.filter(
         (el) => el.provincia.nombre === "Buenos Aires"
       );

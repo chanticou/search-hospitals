@@ -23,17 +23,17 @@
 }
 .popupButton {
   padding: 10px 20px;
-  color: blue;
+
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
-}
 
-.popupButton {
-  padding: 20px;
   width: 200px;
   margin: auto;
+  color: rgb(0, 0, 46);
+  font-size: 1rem;
 }
+
 .contentSelect {
   display: flex;
   flex-direction: column;
@@ -71,8 +71,6 @@
 }
 
 .selectContainer {
-  /* padding: 20px; */
-  /* width: 500px; */
   display: flex;
   margin: auto;
   /* border: 1px solid black; */
@@ -86,4 +84,34 @@
   text-align: center;
   color: blue;
   font-weight: bold;
+}
+
+/* content send emial */
+.contentSendEmail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0;
+
+  color: #1c385c;
+  text-shadow: 2px, 2px, 2px rgb(0, 0, 0, 0.1);
+}
+
+.sendEmail {
+  padding: 10px 20px;
+
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+
+  width: 200px;
+  margin: auto;
+  color: rgb(0, 0, 46);
+  transition: 0.3s ease;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.sendEmail:hover {
+  background-color: rgb(0, 0, 46);
+  color: #fff;
 }
